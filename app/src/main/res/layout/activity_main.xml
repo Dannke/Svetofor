@@ -10,8 +10,9 @@
 
     <Button
         android:id="@+id/button_red"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="141dp"
+        android:layout_height="51dp"
+        android:backgroundTint="#282828"
         android:text="@string/Red"
         app:layout_constraintBottom_toTopOf="@+id/button_yellow"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,8 +23,9 @@
 
     <Button
         android:id="@+id/button_yellow"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="141dp"
+        android:layout_height="51dp"
+        android:backgroundTint="#282828"
         android:text="@string/Yellow"
         app:layout_constraintBottom_toTopOf="@+id/button_green"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,8 +36,9 @@
 
     <Button
         android:id="@+id/button_green"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="141dp"
+        android:layout_height="51dp"
+        android:backgroundTint="#282828"
         android:text="@string/Green"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,7 +52,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
-        android:textSize="16sp"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/button_red"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
